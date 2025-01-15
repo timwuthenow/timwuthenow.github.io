@@ -1,0 +1,10 @@
+:root {
+	--md-primary-fg-color: #16293F;
+	--md-primary-fg-color--light: #FC764C;
+	--md-primary-fg-color--dark: #16293F;
+	--md-accent-fg-color: #FC764C;
+  }
+
+  body {
+	font-family: 'Poppins', sans-serif;
+  }

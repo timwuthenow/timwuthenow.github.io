@@ -1,0 +1,36 @@
+site_name: Aletyx Documentation
+site_url: https://timwuthenow.github.io/aletyx-docs/
+repo_url: https://github.com/timwuthenow/aletyx-docs
+
+theme:
+  name: material
+  logo: assets/images/owl-icon.svg
+  favicon: assets/images/favicon.ico
+  font:
+    text: Poppins
+    code: Roboto Mono
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quick-start.md
+  - How-To Guides:
+    - Overview: how-to/index.md
+  - Workshops:
+    - Overview: workshops/index.md
+  - API Reference:
+    - Overview: api/index.md
