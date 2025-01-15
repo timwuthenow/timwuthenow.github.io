@@ -1,7 +1,7 @@
 site_name: Documentation
 site_description: "Landing for documentation and knowledge around aletyx's Build of Apache KIE"
 site_author: "Tim Wuthenow and Alex Porcelli"
-site_url: https://timwuthenow.github.io/aletyx-docs/
+site_url: https://timwuthenow.github.io/
 repo_url: https://github.com/timwuthenow/aletyx-docs
 
 theme:
