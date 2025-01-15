@@ -4,7 +4,7 @@ Welcome to aletyx's Getting Started guide for the {{ product.name }}. This secti
 
 ## What's Inside
 
-- [Installation Guide](installation.md) - Step-by-step instructions for setting up aletyx
+- [Environment Setup](environment-setup.md) - Step-by-step instructions for setting up aletyx
 - [Quick Start](quick-start.md) - Get up and running quickly with basic examples
 
 ## Prerequisites
