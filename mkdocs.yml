@@ -1,24 +1,52 @@
-site_name: Aletyx Documentation
+site_name: Documentation
+site_description: "Landing for documentation and knowledge around aletyx's Build of Apache KIE"
+site_author: "Tim Wuthenow and Alex Porcelli"
 site_url: https://timwuthenow.github.io/aletyx-docs/
 repo_url: https://github.com/timwuthenow/aletyx-docs
 
 theme:
   name: material
-  logo: assets/images/owl-icon.svg
+  logo: assets/images/aletyx.png
   favicon: assets/images/favicon.ico
   font:
     text: Poppins
     code: Roboto Mono
   palette:
-    scheme: default
-    primary: custom
-    accent: custom
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      logo: assets/images/aletyx.png
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      logo: assets/images/aletyx-dark.svg
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - search.suggest
-    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.sections
+  - navigation.expand
+  - navigation.indexes
+  - navigation.top
+  - navigation.tracking
+  - header.autohide
+  - search.suggest
+  - search.highlight
+  - toc.follow
+  - content.tabs.link
+
 
 extra_css:
   - stylesheets/extra.css
@@ -26,11 +54,67 @@ extra_css:
 nav:
   - Home: index.md
   - Getting Started:
-    - Installation: getting-started/installation.md
+    - Overview: getting-started/index.md
+    - Environment Setup: getting-started/environment-setup.md
+    - Development Tools:
+      - Java Setup: getting-started/java-setup.md
+      - Container Tools: getting-started/container-tools.md
+      - Git Configuration: getting-started/git-configuration.md
+      - Cloud Tools: getting-started/cloud-tools.md
     - Quick Start: getting-started/quick-start.md
   - How-To Guides:
     - Overview: how-to/index.md
+    - Guide 1: how-to/guide1.md
+    - Guide 2: how-to/guide2.md
   - Workshops:
     - Overview: workshops/index.md
+    - Workshop 1: workshops/workshop1.md
   - API Reference:
     - Overview: api/index.md
+    - Endpoints: api/endpoints.md
+    - Authentication: api/authentication.md
+
+extra:
+  product:
+    name: "aletyx Build of Apache KIE X"
+    short: "ake"
+    dm: "Decision Manager"
+    pam: "Process Automation Manager"
+    version: "10.0.0"
+    kogitobom: "10.0.0"
+    kogitogroup: "org.kie"
+    sandbox: "Apache KIE Sandbox"
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - markdownextradata: {}
+  - minify:
+      minify_html: true
