@@ -2,82 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://timwuthenow.github.io/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/api/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/api/authentication/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/api/endpoints/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/getting-started/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/getting-started/cloud-tools/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/getting-started/container-tools/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/getting-started/environment-setup/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/getting-started/git-configuration/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/getting-started/java-setup/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/getting-started/quick-start/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://timwuthenow.github.io/getting-started/ubuntu/</loc>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/how-to/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/how-to/guide1/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/how-to/guide2/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/workshops/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://timwuthenow.github.io/workshops/workshop1/</loc>
-         <lastmod>2025-01-15</lastmod>
+         <lastmod>2025-02-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
