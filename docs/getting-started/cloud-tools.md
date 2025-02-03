@@ -256,5 +256,6 @@ kubectl get nodes
 oc get nodes
 ```
 
-> !!! tip
-> Keep your CLI tools up to date with the cluster version to avoid compatibility issues. You can check the required versions in your cluster's documentation.
+!!! tip
+
+    Keep your CLI tools up to date with the cluster version to avoid compatibility issues. You can check the required versions in your cluster's documentation.

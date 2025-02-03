@@ -1,4 +1,4 @@
-site_name: Documentation
+site_name: aletyx Build of Apache KIE
 site_description: "Landing for documentation and knowledge around aletyx's Build of Apache KIE"
 site_author: "Tim Wuthenow and Alex Porcelli"
 site_url: https://timwuthenow.github.io/
@@ -58,9 +58,10 @@ nav:
     - Environment Setup: getting-started/environment-setup.md
     - Development Tools:
       - Java Setup: getting-started/java-setup.md
-      - Container Tools: getting-started/container-tools.md
+      - Container Tools Setup: getting-started/container-tools.md
       - Git Configuration: getting-started/git-configuration.md
-      - Cloud Tools: getting-started/cloud-tools.md
+      - Cloud Tools Setup: getting-started/cloud-tools.md
+      - Ubuntu Setup: getting-started/ubuntu.md
     - Quick Start: getting-started/quick-start.md
   - How-To Guides:
     - Overview: how-to/index.md
