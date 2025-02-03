@@ -76,6 +76,7 @@ nav:
     - Authentication: api/authentication.md
 
 extra:
+  company: "aletyx"
   product:
     name: "aletyx Build of Apache KIE X"
     short: "ake"
@@ -85,6 +86,10 @@ extra:
     kogitobom: "10.0.0"
     kogitogroup: "org.kie"
     sandbox: "Apache KIE Sandbox"
+  community:
+    drools: "Drools from Apache KIE"
+    jbpm: "jBPM from Apache KIE"
+    Kogito: "Kogito from Apache KIE"
 
 markdown_extensions:
   - admonition
