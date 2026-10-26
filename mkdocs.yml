@@ -2,12 +2,12 @@ site_name: aletyx Build of Apache KIE
 site_description: "Landing for documentation and knowledge around aletyx's Build of Apache KIE"
 site_author: "Tim Wuthenow and Alex Porcelli"
 site_url: https://timwuthenow.github.io/
-repo_url: https://github.com/timwuthenow/aletyx-docs
+repo_url: https://github.com/timwuthenow/timwuthenow.github.io
 
 theme:
   name: material
   logo: assets/images/aletyx.png
-  favicon: assets/images/favicon.ico
+  favicon: assets/images/aletyx.png
   font:
     text: Poppins
     code: Roboto Mono
@@ -33,19 +33,18 @@ theme:
   features:
     - content.code.copy
     - content.code.annotate
-features:
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - navigation.sections
-  - navigation.expand
-  - navigation.indexes
-  - navigation.top
-  - navigation.tracking
-  - header.autohide
-  - search.suggest
-  - search.highlight
-  - toc.follow
-  - content.tabs.link
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - header.autohide
+    - search.suggest
+    - search.highlight
+    - toc.follow
+    - content.tabs.link
 
 
 extra_css:
